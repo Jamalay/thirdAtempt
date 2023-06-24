@@ -1,0 +1,302 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.half_img{
+    width: 720px;
+}
+
+.header_column{
+    margin: auto;
+    padding-top: 3em;
+    height: 61.87px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+}
+
+.header_column2{
+    height: 61.87px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.6em;
+}
+
+.menu_div{
+    width: 30%;
+}
+
+header{
+    height: 116px;
+}
+
+.menu_buttom{
+    border: solid 2px;
+    border-radius: 7px;
+    width: 140px;
+    height: 39.67px;
+    color: orange;
+}
+.menu_buttom_text{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.for_img{
+    max-width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.column-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-sec-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+.shadow{
+    box-shadow: -12px 5px 5px  gray;
+}
+
+.text_in_center{
+    font-size: 23px;
+    width: 57%;
+    margin: 22%;
+    margin-left: 15%;
+}
+
+.text_in_center-2{
+    font-size: 27px;
+    width: 57%;
+    margin: 22%;
+    margin-left: 20%;
+}
+
+.m{
+    margin-top: -0.25em;
+}
+
+.second_block{
+    margin: 0 auto;
+    padding-top: 7%;
+    width: 82%;
+}
+
+.text_space_right{
+    margin-left: 20px;
+}
+
+.sec_block_height{
+    height: 820px;
+}
+
+.main_text_in_sec_block{
+    font-size: 22px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.h2_sec_block{
+    width: 320px;
+    margin: auto;
+}
+
+
+/*
+.third_block{
+    height: 240px;
+    background-color: orange;
+
+}
+
+.third_block_column1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.third_block_column2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+
+.third_block_buttoms{
+    width: 30%;
+}
+
+.menu_buttom_third_block1{
+    border: solid 2px;
+    border-radius: 7px;
+    border-color: black;
+    width: 140px;
+    height: 39.67px;
+    background-color: black;
+    color: white;
+}
+
+.menu_buttom_third_block2{
+    border: solid 2px;
+    border-radius: 7px;
+    width: 140px;
+    height: 39.67px;
+    color: black;
+}
+
+.menu_buttom_text2{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.t_block_size{
+    font-size: 26px;
+    margin-bottom: 5%;
+}
+*/
+
+.last_block{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.brown_column{
+    height: 370px;
+    width: 770px;
+    background-color: #231F20;
+}
+
+.last_block_height{
+    height: 1026px;
+}
+
+.brown_block_text{
+    width: 480px;
+    margin: 60px 90px;
+    color: white;
+}
+
+.font14px{
+    font-size: 14px; 
+}
+
+.big_font{
+    font-size: 44px;
+}
+
+.font18px{
+    font-size: 18px;
+}
+
+.font22px{
+    font-size: 22px;
+}
+
+.best_blog_text{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.in_center{
+    width: 390px;
+    margin: 0 auto;
+}
+
+.two_last_text_block{
+    width: 1170px;
+    height: 290px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.last_block_text{
+    width: 49%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.text_in_last_block{
+    width: 474px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+footer{
+    max-width: 1440px;
+    height: 410px;
+}
+
+.footer_menu{
+    width: 60%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+hr{
+    margin-top: 4%;
+    width: 70%;
+}
+
+.icons{
+    width:296px;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 4%
+}
+
+.s{
+    padding-top: 5%;
+    justify-content: space-between;
+    width: 16%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1170px) {
+    .text_in_center{
+        font-size: 15px;
+        width: 57%;
+        margin: 22%;
+        margin-left: 15%;
+    }
+    
+    .text_in_center-2{
+        font-size: 19px;
+        width: 57%;
+        margin: 22%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .text_in_center{
+        font-size: 8px;
+        width: 57%;
+        margin: 22%;
+        margin-left: 15%;
+    }
+    
+    .text_in_center-2{
+        font-size: 12px;
+        width: 57%;
+        margin: 22%;
+        margin-left: 20%;
+    }
+}
